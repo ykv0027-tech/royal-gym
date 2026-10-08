@@ -1,0 +1,1684 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Royal Gym By Tandon's | Top 10 Gyms in Ludhiana | Best Gym For Girls</title>
+<meta name="description" content="Royal Gym By Tandon's — a trusted fitness destination in Ludhiana for strength training, fitness and focused workouts. 4.9/5 from 852 reviews. Mon–Sat 6:00 AM–10:30 PM. Call +91 98888 44699." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#08090A',
+          coal: '#0D0F11',
+          card: '#131619',
+          sand: '#F4F1EC',
+          gold: '#FFB627',
+          ember: '#FF6B2C'
+        },
+        fontFamily: {
+          display: ['Anton', 'Impact', 'sans-serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: #08090A;
+    color: #F4F1EC;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  section { scroll-margin-top: 88px; }
+
+  ::selection { background: #FFB627; color: #08090A; }
+
+  /* ---------- Scrollbar ---------- */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: #0D0F11; }
+  ::-webkit-scrollbar-thumb { background: #2b3036; border-radius: 99px; }
+  ::-webkit-scrollbar-thumb:hover { background: #FFB627; }
+
+  /* ---------- Reveal system ---------- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity .85s cubic-bezier(.22,1,.36,1), transform .85s cubic-bezier(.22,1,.36,1);
+    will-change: transform, opacity;
+  }
+  .reveal.in { opacity: 1; transform: none; }
+
+  .reveal-left { opacity: 0; transform: translateX(-38px); transition: opacity .9s cubic-bezier(.22,1,.36,1), transform .9s cubic-bezier(.22,1,.36,1); }
+  .reveal-left.in { opacity: 1; transform: none; }
+
+  .reveal-scale { opacity: 0; transform: scale(.94); transition: opacity .9s cubic-bezier(.22,1,.36,1), transform .9s cubic-bezier(.22,1,.36,1); }
+  .reveal-scale.in { opacity: 1; transform: none; }
+
+  /* ---------- Kinetic headline ---------- */
+  .kin-line { overflow: hidden; display: block; padding-bottom: .06em; }
+  .kin-word {
+    display: inline-block;
+    transform: translateY(110%) rotate(4deg);
+    opacity: 0;
+    animation: kinUp 1.05s cubic-bezier(.19,1,.22,1) forwards;
+  }
+  @keyframes kinUp {
+    to { transform: translateY(0) rotate(0deg); opacity: 1; }
+  }
+
+  /* ---------- Light sweep on accent word ---------- */
+  .sweep {
+    background: linear-gradient(100deg, #FFB627 0%, #FFB627 38%, #FFF2D2 48%, #FF6B2C 58%, #FFB627 72%);
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: sweepMove 7s ease-in-out 1.4s infinite;
+  }
+  @keyframes sweepMove {
+    0% { background-position: 130% 0; }
+    45%,100% { background-position: -60% 0; }
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform .35s cubic-bezier(.22,1,.36,1), box-shadow .35s ease, background-color .35s ease, color .35s ease, border-color .35s ease;
+    will-change: transform;
+  }
+  .btn::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(120deg, transparent 20%, rgba(255,255,255,.32) 50%, transparent 80%);
+    transform: translateX(-130%) skewX(-18deg);
+    transition: transform .75s cubic-bezier(.22,1,.36,1);
+  }
+  .btn:hover::after { transform: translateX(130%) skewX(-18deg); }
+  .btn-primary {
+    background: linear-gradient(135deg, #FFB627 0%, #FF8A2B 100%);
+    color: #14100A;
+    box-shadow: 0 12px 34px -12px rgba(255,150,40,.55);
+  }
+  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 22px 46px -14px rgba(255,150,40,.65); }
+  .btn-ghost {
+    border: 1px solid rgba(244,241,236,.25);
+    color: #F4F1EC;
+    background: rgba(255,255,255,.03);
+    backdrop-filter: blur(6px);
+  }
+  .btn-ghost:hover { transform: translateY(-3px); border-color: #FFB627; color: #FFB627; background: rgba(255,182,39,.08); }
+
+  /* ---------- Header ---------- */
+  .nav-link {
+    position: relative;
+    padding: .35rem 0;
+    color: rgba(244,241,236,.72);
+    transition: color .3s ease;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -2px;
+    height: 2px; width: 100%;
+    background: linear-gradient(90deg, #FFB627, #FF6B2C);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .42s cubic-bezier(.22,1,.36,1);
+  }
+  .nav-link:hover, .nav-link.active { color: #F4F1EC; }
+  .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); transform-origin: left; }
+
+  .header-scrolled {
+    background: rgba(8,9,10,.86);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(255,255,255,.07);
+    box-shadow: 0 18px 40px -28px rgba(0,0,0,.9);
+  }
+
+  /* ---------- Hero visuals ---------- */
+  .hero-bg {
+    position: absolute;
+    inset: -8% 0 -8% 0;
+    background-size: cover;
+    background-position: center 35%;
+    will-change: transform;
+    transform: scale(1.08);
+    animation: heroZoom 18s ease-out forwards;
+  }
+  @keyframes heroZoom {
+    from { transform: scale(1.16); }
+    to { transform: scale(1.02); }
+  }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg, rgba(8,9,10,.86) 0%, rgba(8,9,10,.55) 32%, rgba(8,9,10,.82) 72%, #08090A 100%),
+      linear-gradient(90deg, rgba(8,9,10,.92) 0%, rgba(8,9,10,.35) 55%, rgba(8,9,10,.72) 100%);
+  }
+  .hero-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size: 88px 88px;
+    mask-image: radial-gradient(ellipse at 50% 30%, #000 0%, transparent 72%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 30%, #000 0%, transparent 72%);
+    opacity: .55;
+  }
+  .glow-orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(70px);
+    opacity: .28;
+    pointer-events: none;
+    animation: orbFloat 16s ease-in-out infinite alternate;
+  }
+  @keyframes orbFloat {
+    from { transform: translate3d(0,0,0) scale(1); }
+    to { transform: translate3d(30px,-38px,0) scale(1.12); }
+  }
+
+  .chip {
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.05);
+    backdrop-filter: blur(8px);
+    transition: border-color .35s ease, background-color .35s ease, transform .35s ease;
+  }
+  .chip:hover { border-color: rgba(255,182,39,.55); background: rgba(255,182,39,.09); transform: translateY(-3px); }
+
+  /* ---------- Marquee ---------- */
+  .marquee { display: flex; width: max-content; animation: marquee 38s linear infinite; }
+  .marquee-wrap:hover .marquee { animation-play-state: paused; }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ---------- Cards ---------- */
+  .lift-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform .5s cubic-bezier(.22,1,.36,1), border-color .5s ease, box-shadow .5s ease, background-color .5s ease;
+  }
+  .lift-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(255,182,39,.42);
+    box-shadow: 0 34px 70px -34px rgba(255,150,40,.42);
+  }
+  .lift-card .icon-\boxed {
+    transition: transform .5s cubic-bezier(.22,1,.36,1), background-color .5s ease, color .5s ease, border-color .5s ease;
+  }
+  .lift-card:hover .icon-\boxed {
+    transform: translateY(-4px) rotate(-6deg) scale(1.06);
+    background: linear-gradient(135deg,#FFB627,#FF8A2B);
+    color: #14100A;
+    border-color: transparent;
+  }
+  .lift-card .corner-line {
+    position: absolute;
+    left: 0; bottom: 0;
+    height: 3px; width: 100%;
+    background: linear-gradient(90deg,#FFB627,#FF6B2C);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .55s cubic-bezier(.22,1,.36,1);
+  }
+  .lift-card:hover .corner-line { transform: scaleX(1); }
+
+  .img-zoom { overflow: hidden; }
+  .img-zoom img {
+    transition: transform 1.1s cubic-bezier(.22,1,.36,1), filter .6s ease;
+    filter: saturate(.85) contrast(1.05);
+  }
+  .img-zoom:hover img, .lift-card:hover .img-zoom img { transform: scale(1.09); filter: saturate(1.05) contrast(1.08); }
+
+  /* ---------- Section heading rule ---------- */
+  .rule {
+    height: 3px; width: 74px;
+    background: linear-gradient(90deg, #FFB627, #FF6B2C);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .9s cubic-bezier(.22,1,.36,1) .12s;
+  }
+  .reveal.in .rule, .in > .rule { transform: scaleX(1); }
+
+  /* ---------- Equipment chips ---------- */
+  .equip-item {
+    position: relative;
+    overflow: hidden;
+    transition: transform .45s cubic-bezier(.22,1,.36,1), background-color .45s ease, border-color .45s ease, color .45s ease;
+  }
+  .equip-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #FFB627, #FF7A2B);
+    transform: translateY(101%);
+    transition: transform .5s cubic-bezier(.22,1,.36,1);
+  }
+  .equip-item:hover::before { transform: translateY(0); }
+  .equip-item:hover { color: #14100A; border-color: transparent; transform: translateY(-5px); }
+  .equip-item > * { position: relative; z-index: 2; }
+
+  /* ---------- Pricing ---------- */
+  .price-card { transition: transform .55s cubic-bezier(.22,1,.36,1), border-color .5s ease, box-shadow .55s ease, background-color .5s ease; }
+  .price-card:hover { transform: translateY(-10px); border-color: rgba(255,182,39,.5); box-shadow: 0 44px 90px -46px rgba(255,150,40,.55); }
+  .price-featured {
+    background:
+      radial-gradient(120% 110% at 50% 0%, rgba(255,182,39,.14) 0%, rgba(255,182,39,0) 62%),
+      linear-gradient(180deg, #171A1D 0%, #101315 100%);
+    border-color: rgba(255,182,39,.42) !important;
+  }
+
+  /* ---------- Testimonials ---------- */
+  .t-track { display: flex; transition: transform .78s cubic-bezier(.22,1,.36,1); }
+  .t-slide { flex: 0 0 100%; }
+  .dot {
+    width: 34px; height: 5px;
+    border-radius: 99px;
+    background: rgba(244,241,236,.22);
+    transition: background-color .45s ease, width .45s cubic-bezier(.22,1,.36,1);
+  }
+  .dot.active { width: 62px; background: linear-gradient(90deg,#FFB627,#FF6B2C); }
+
+  /* ---------- Stars ---------- */
+  .star { display: inline-block; animation: starPop .5s cubic-bezier(.22,1,.36,1) backwards; }
+  @keyframes starPop {
+    from { opacity: 0; transform: scale(.4) rotate(-25deg); }
+    to { opacity: 1; transform: none; }
+  }
+
+  /* ---------- Progress bar ---------- */
+  #progressBar {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #FFB627, #FF6B2C, #FFB627);
+    width: 0%;
+    z-index: 90;
+    transition: width .12s linear;
+  }
+
+  /* ---------- Mobile menu ---------- */
+  #mobileMenu {
+    transform: translateY(-102%);
+    transition: transform .55s cubic-bezier(.22,1,.36,1), opacity .4s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  #mobileMenu.open { transform: translateY(0); opacity: 1; pointer-events: auto; }
+  .m-link { opacity: 0; transform: translateY(18px); transition: opacity .5s ease, transform .5s cubic-bezier(.22,1,.36,1); }
+  #mobileMenu.open .m-link { opacity: 1; transform: none; }
+
+  /* ---------- Sticky mobile CTA ---------- */
+  #stickyCta {
+    transform: translateY(120%);
+    transition: transform .5s cubic-bezier(.22,1,.36,1);
+  }
+  #stickyCta.show { transform: translateY(0); }
+
+  /* ---------- Map ---------- */
+  .map-frame {
+    filter: grayscale(1) contrast(1.08) brightness(.82);
+    transition: filter .7s ease, transform .7s ease;
+  }
+  .map-wrap:hover .map-frame { filter: grayscale(.15) contrast(1.05) brightness(.95); }
+
+  /* ---------- Floating label ---------- */
+  .float-slow { animation: floatSlow 7s ease-in-out infinite; }
+  @keyframes floatSlow {
+    0%,100% { transform: translateY(0) rotate(-1.2deg); }
+    50% { transform: translateY(-13px) rotate(1.2deg); }
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 1.5px rgba(244,241,236,.14);
+    color: transparent;
+  }
+
+  .divider-soft { background: linear-gradient(90deg, transparent, rgba(255,255,255,.12), transparent); height: 1px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .001ms !important;
+      scroll-behavior: auto !important;
+    }
+    .reveal, .reveal-left, .reveal-scale { opacity: 1 !important; transform: none !important; }
+    .kin-word { opacity: 1 !important; transform: none !important; }
+    .rule { transform: scaleX(1) !important; }
+  }
+</style>
+</head>
+<body>
+
+<div id="progressBar"></div>
+
+<!-- ================= HEADER ================= -->
+<header id="header" class="fixed top-0 left-0 w-full z-50 transition-all duration-500">
+  <div class="max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="flex items-center justify-between h-[76px] md:h-[88px]">
+
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <div class="relative w-11 h-11 md:w-12 md:h-12 rounded-xl overflow-hidden border border-white/12 bg-gradient-to-br from-[#FFB627] to-[#FF6B2C] flex items-center justify-center shadow-[0_12px_30px_-12px_rgba(255,150,40,.6)]">
+          <span class="font-display text-[#14100A] text-[19px] md:text-[21px] leading-none tracking-wider">RG</span>
+        </div>
+        <div class="leading-none">
+          <div class="font-display text-[17px] md:text-[20px] tracking-[0.06em] text-sand">ROYAL GYM</div>
+          <div class="text-[9.5px] md:text-[10.5px] tracking-[0.32em] text-gold/90 font-semibold mt-[3px]">BY TANDON'S</div>
+        </div>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden lg:flex items-center gap-8 text-[13px] font-medium tracking-[0.09em] uppercase">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#equipment" class="nav-link">Equipment</a>
+        <a href="#membership" class="nav-link">Membership</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden lg:flex items-center gap-3">
+        <a href="tel:+919888844699" class="flex items-center gap-2 text-[13px] font-semibold text-sand/85 hover:text-gold transition-colors">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+          +91 98888 44699
+        </a>
+        <a href="tel:+919888844699" class="btn btn-primary magnetic px-6 py-3 rounded-full text-[12.5px] font-bold tracking-[0.14em] uppercase">
+          Call Now
+        </a>
+      </div>
+
+      <!-- Mobile toggle -->
+      <button id="menuBtn" type="button" class="lg:hidden w-11 h-11 rounded-xl border border-white/12 flex flex-col items-center justify-center gap-[5px]" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="block w-5 h-[2px] bg-sand transition-all duration-300" data-bar="1"></span>
+        <span class="block w-5 h-[2px] bg-sand transition-all duration-300" data-bar="2"></span>
+        <span class="block w-5 h-[2px] bg-sand transition-all duration-300" data-bar="3"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="lg:hidden absolute top-full left-0 w-full bg-[#0B0D0F]/97 backdrop-blur-xl border-y border-white/10">
+    <nav class="px-6 py-8 flex flex-col gap-1">
+      <a href="#home" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">Home</a>
+      <a href="#about" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">About</a>
+      <a href="#services" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">Services</a>
+      <a href="#equipment" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">Equipment</a>
+      <a href="#membership" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">Membership</a>
+      <a href="#reviews" class="m-link py-3 border-b border-white/8 font-display text-2xl tracking-wide text-sand">Reviews</a>
+      <a href="#contact" class="m-link py-3 font-display text-2xl tracking-wide text-sand">Contact</a>
+      <div class="m-link mt-5 flex gap-3">
+        <a href="tel:+919888844699" class="btn btn-primary flex-1 text-center px-5 py-3.5 rounded-full text-[12px] font-bold tracking-[0.14em] uppercase">Call Now</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007%2C%20India" target="_blank" rel="noopener noreferrer" class="btn btn-ghost flex-1 text-center px-5 py-3.5 rounded-full text-[12px] font-bold tracking-[0.14em] uppercase">Directions</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="relative min-h-[100svh] flex items-end lg:items-center overflow-hidden pt-[92px] pb-14 lg:py-0">
+  <div class="hero-bg" id="heroBg" style="background-image:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=2000&q=80');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grid"></div>
+  <div class="glow-orb w-[420px] h-[420px] bg-[#FF8A2B] -left-24 top-24 opacity-[0.18]"></div>
+  <div class="glow-orb w-[380px] h-[380px] bg-[#FFB627] right-0 bottom-0 opacity-[0.14]" style="animation-delay:-6s"></div>
+
+  <div class="relative z-10 w-full">
+    <div class="max-w-[1280px] mx-auto px-5 sm:px-8">
+
+      <!-- Rating pill -->
+      <div class="inline-flex items-center gap-3 rounded-full border border-white/14 bg-white/[0.07] backdrop-blur-md px-4 py-2.5 mb-7" style="animation:kinUp .9s cubic-bezier(.19,1,.22,1) .1s backwards;">
+        <div class="flex items-center gap-1 text-gold">
+          <svg class="w-[15px] h-[15px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-[15px] h-[15px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-[15px] h-[15px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-[15px] h-[15px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-[15px] h-[15px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+        </div>
+        <span class="text-[12px] sm:text-[13px] font-semibold tracking-[0.05em] text-sand">
+          <span class="text-gold">4.9/5</span> <span class="text-sand/45">|</span> 852 Reviews
+        </span>
+      </div>
+
+      <!-- Kinetic headline -->
+      <h1 class="font-display text-sand leading-[0.9] tracking-[0.01em] text-[clamp(2.65rem,10.5vw,7.4rem)] max-w-[16ch]">
+        <span class="kin-line"><span class="kin-word" style="animation-delay:.15s">TRAIN</span> <span class="kin-word" style="animation-delay:.28s">STRONG.</span></span>
+        <span class="kin-line"><span class="kin-word sweep" style="animation-delay:.42s">STAY</span> <span class="kin-word sweep" style="animation-delay:.55s">CONSISTENT.</span></span>
+      </h1>
+
+      <p class="mt-6 text-sand/78 text-[16px] sm:text-[19px] lg:text-[21px] leading-relaxed max-w-[46ch] font-light" style="animation:kinUp 1s cubic-bezier(.19,1,.22,1) .72s backwards;">
+        A trusted fitness destination in Ludhiana for strength training, fitness and focused workouts.
+      </p>
+
+      <!-- CTAs -->
+      <div class="mt-8 flex flex-wrap items-center gap-3.5" style="animation:kinUp 1s cubic-bezier(.19,1,.22,1) .88s backwards;">
+        <a href="tel:+919888844699" class="btn btn-primary magnetic px-8 py-[17px] rounded-full text-[13px] font-extrabold tracking-[0.16em] uppercase inline-flex items-center gap-2.5">
+          <svg class="w-[17px] h-[17px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+          Call Now
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007%2C%20India" target="_blank" rel="noopener noreferrer" class="btn btn-ghost magnetic px-8 py-[17px] rounded-full text-[13px] font-extrabold tracking-[0.16em] uppercase inline-flex items-center gap-2.5">
+          <svg class="w-[17px] h-[17px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Get Directions
+        </a>
+      </div>
+
+      <!-- Info chips -->
+      <div class="mt-9 flex flex-wrap gap-3" style="animation:kinUp 1s cubic-bezier(.19,1,.22,1) 1.02s backwards;">
+        <div class="chip rounded-2xl px-4 py-3 flex items-start gap-3">
+          <svg class="w-[18px] h-[18px] text-gold mt-[2px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <div class="text-[10px] uppercase tracking-[0.22em] text-gold/85 font-semibold">Location</div>
+            <div class="text-[12.5px] sm:text-[13px] text-sand/85 leading-snug max-w-[30ch]">New Subhash Nagar, Jodhewal, Ludhiana, Punjab 141007</div>
+          </div>
+        </div>
+        <div class="chip rounded-2xl px-4 py-3 flex items-start gap-3">
+          <svg class="w-[18px] h-[18px] text-gold mt-[2px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+          <div>
+            <div class="text-[10px] uppercase tracking-[0.22em] text-gold/85 font-semibold">Opening Hours</div>
+            <div class="text-[12.5px] sm:text-[13px] text-sand/85 leading-snug">Mon–Sat: 6:00 AM – 10:30 PM · Sunday: Closed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-6 right-6 sm:right-10 hidden md:flex flex-col items-center gap-3 z-10">
+    <span class="text-[10px] tracking-[0.32em] uppercase text-sand/45 [writing-mode:vertical-rl]">Scroll</span>
+    <div class="w-[1px] h-16 bg-white/16 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-8 bg-gradient-to-b from-gold to-transparent" style="animation:scrollDot 2.2s ease-in-out infinite"></div>
+    </div>
+  </div>
+  <style>
+    @keyframes scrollDot { 0% { transform: translateY(-120%);} 60%,100% { transform: translateY(220%);} }
+  </style>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee-wrap relative overflow-hidden border-y border-white/10 bg-[#0B0D0F] py-4">
+  <div class="marquee items-center gap-8 text-[13px] sm:text-[15px] font-display tracking-[0.22em] uppercase text-sand/62">
+    <span class="flex items-center gap-8">
+      <span>Strength Training</span><span class="text-gold">◆</span>
+      <span>Weight Training</span><span class="text-gold">◆</span>
+      <span>Free Weights</span><span class="text-gold">◆</span>
+      <span>Ladies' Batch</span><span class="text-gold">◆</span>
+      <span>Workout Plans</span><span class="text-gold">◆</span>
+      <span>Diet Plans</span><span class="text-gold">◆</span>
+      <span>Fitness Workouts</span><span class="text-gold">◆</span>
+    </span>
+    <span class="flex items-center gap-8" aria-hidden="true">
+      <span>Strength Training</span><span class="text-gold">◆</span>
+      <span>Weight Training</span><span class="text-gold">◆</span>
+      <span>Free Weights</span><span class="text-gold">◆</span>
+      <span>Ladies' Batch</span><span class="text-gold">◆</span>
+      <span>Workout Plans</span><span class="text-gold">◆</span>
+      <span>Diet Plans</span><span class="text-gold">◆</span>
+      <span>Fitness Workouts</span><span class="text-gold">◆</span>
+    </span>
+  </div>
+</div>
+
+<!-- ================= SOCIAL PROOF ================= -->
+<section class="relative py-16 sm:py-20 bg-[#0D0F11] overflow-hidden">
+  <div class="absolute inset-0 opacity-[0.35]" style="background:radial-gradient(70% 130% at 50% 0%, rgba(255,182,39,.12) 0%, rgba(255,182,39,0) 65%);"></div>
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-6 items-center">
+
+      <div class="reveal text-center lg:text-left lg:border-r lg:border-white/10 lg:pr-8">
+        <div class="flex items-center justify-center lg:justify-start gap-1.5 text-gold mb-3">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+        </div>
+        <div class="font-display text-[clamp(3.2rem,9vw,5.4rem)] leading-[0.85] text-sand">
+          <span class="counter" data-target="4.9" data-decimals="1">0.0</span>
+        </div>
+        <div class="mt-2 text-[11px] uppercase tracking-[0.32em] text-gold/90 font-semibold">Average Rating</div>
+      </div>
+
+      <div class="reveal text-center lg:text-left lg:border-r lg:border-white/10 lg:pr-8" data-delay="120">
+        <div class="font-display text-[clamp(3.2rem,9vw,5.4rem)] leading-[0.85] text-sand">
+          <span class="counter" data-target="852" data-decimals="0">0</span>
+        </div>
+        <div class="mt-2 text-[11px] uppercase tracking-[0.32em] text-sand/55 font-semibold">Reviews</div>
+      </div>
+
+      <div class="reveal text-center lg:text-left lg:border-r lg:border-white/10 lg:pr-8" data-delay="240">
+        <div class="font-display text-[clamp(1.85rem,5vw,2.9rem)] leading-[1.02] text-sand">ROYAL GYM<br>BY TANDON'S</div>
+        <div class="mt-2 text-[11px] uppercase tracking-[0.32em] text-sand/55 font-semibold">Gym / Fitness Center</div>
+      </div>
+
+      <div class="reveal text-center lg:text-left" data-delay="360">
+        <div class="font-display text-[clamp(1.85rem,5vw,2.9rem)] leading-[1.02] text-sand">LUDHIANA<br><span class="text-gold">PUNJAB</span></div>
+        <div class="mt-2 text-[11px] uppercase tracking-[0.32em] text-sand/55 font-semibold">Jodhewal · 141007</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT / WHY ================= -->
+<section id="about" class="relative py-20 sm:py-28 bg-ink overflow-hidden">
+  <div class="absolute -left-40 top-24 w-[520px] h-[520px] rounded-full bg-[#FF8A2B] opacity-[0.07]" style="filter:blur(90px)"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+
+      <!-- Image collage -->
+      <div class="relative">
+        <div class="reveal-scale relative rounded-[26px] overflow-hidden border border-white/10 img-zoom">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1100&q=80" alt="Strength training at Royal Gym By Tandon's" class="w-full h-[420px] sm:h-[560px] object-cover" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent"></div>
+        </div>
+
+        <div class="reveal-scale float-slow absolute -bottom-8 -right-2 sm:right-[-30px] w-[210px] sm:w-[262px] rounded-[20px] overflow-hidden border border-white/12 shadow-[0_40px_80px_-30px_rgba(0,0,0,.85)]" data-delay="220">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Focused workout session" class="w-full h-[150px] sm:h-[190px] object-cover" loading="lazy" />
+        </div>
+
+        <div class="reveal absolute -left-3 top-8 sm:-left-10 bg-[#121518]/92 backdrop-blur-md border border-white/12 rounded-2xl px-5 py-4 shadow-[0_28px_60px_-28px_rgba(0,0,0,.9)]" data-delay="140">
+          <div class="text-[10px] uppercase tracking-[0.26em] text-gold font-semibold">Since Day One</div>
+          <div class="font-display text-2xl text-sand mt-1 leading-none">STRENGTH FIRST</div>
+          <div class="text-[11px] text-sand/55 mt-1.5 tracking-[0.08em]">Ludhiana, Punjab</div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div>
+        <div class="reveal">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="rule"></div>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Why Royal Gym</span>
+          </div>
+          <h2 class="font-display text-[clamp(2.35rem,6.2vw,4.25rem)] leading-[0.94] tracking-[0.01em] text-sand">
+            BUILT ON <span class="text-gold">DISCIPLINE,</span><br>FOCUSED ON <span class="text-gold">TRAINING.</span>
+          </h2>
+          <p class="mt-6 text-sand/66 text-[16px] sm:text-[17.5px] leading-[1.75] font-light max-w-[52ch]">
+            Royal Gym By Tandon's is a fitness destination in Ludhiana for members who want structured strength training, weight training and focused workouts — supported by trainers who pay attention to the people they work with.
+          </p>
+        </div>
+
+        <!-- Strengths grid -->
+        <div class="mt-9 grid sm:grid-cols-2 gap-x-7 gap-y-5">
+          <div class="reveal flex items-start gap-3.5" data-delay="60">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Fitness options for both males and females</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5" data-delay="120">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Supportive trainers who pay attention to members</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5" data-delay="180">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Workout plans based on fitness requirements</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5" data-delay="240">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Diet plans based on fitness requirements</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5" data-delay="300">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Separate batch for ladies</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5" data-delay="360">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Well-maintained and clean equipment</p>
+          </div>
+
+          <div class="reveal flex items-start gap-3.5 sm:col-span-2" data-delay="420">
+            <div class="w-9 h-9 rounded-xl border border-gold/32 bg-gold/10 flex items-center justify-center shrink-0 mt-[2px]">
+              <svg class="w-[18px] h-[18px] text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <p class="text-sand/82 text-[15px] leading-relaxed">Strength and weight-training focused facilities</p>
+          </div>
+        </div>
+
+        <div class="reveal mt-9 flex flex-wrap gap-3" data-delay="200">
+          <a href="tel:+919888844699" class="btn btn-primary magnetic px-7 py-4 rounded-full text-[12.5px] font-extrabold tracking-[0.16em] uppercase">Call Now</a>
+          <a href="#services" class="btn btn-ghost magnetic px-7 py-4 rounded-full text-[12.5px] font-extrabold tracking-[0.16em] uppercase">Explore Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EQUIPMENT ================= -->
+<section id="equipment" class="relative py-20 sm:py-28 bg-[#0B0D0F] overflow-hidden">
+  <div class="absolute right-0 top-0 w-[620px] h-[620px] rounded-full bg-[#FFB627] opacity-[0.05]" style="filter:blur(110px)"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+
+    <!-- Heading -->
+    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12 sm:mb-16">
+      <div class="reveal max-w-[62ch]">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="rule"></div>
+          <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Equipment &amp; Training</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.35rem,6.2vw,4.25rem)] leading-[0.94] text-sand">
+          THE TOOLS FOR<br><span class="text-gold">FOCUSED WORK.</span>
+        </h2>
+      </div>
+      <p class="reveal text-sand/62 text-[15.5px] sm:text-[17px] leading-[1.8] font-light max-w-[38ch]" data-delay="140">
+        Well-maintained equipment for strength training, weight training and fitness workouts — kept clean and ready for your session.
+      </p>
+    </div>
+
+    <!-- Feature tiles -->
+    <div class="grid md:grid-cols-3 gap-5 sm:gap-6">
+      <div class="reveal lift-card group rounded-[22px] overflow-hidden border border-white/10 bg-card">
+        <div class="img-zoom h-[240px] sm:h-[300px]">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1000&q=80" alt="Free weights training area" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-[21px] tracking-[0.03em] text-sand">FREE WEIGHTS</h3>
+            <span class="text-[10px] tracking-[0.24em] text-gold font-semibold">ZONE 01</span>
+          </div>
+          <p class="mt-2 text-sand/60 text-[14px] leading-relaxed">Dumbbells, barbells and free weights for strength and weight training.</p>
+        </div>
+        <div class="corner-line"></div>
+      </div>
+
+      <div class="reveal lift-card group rounded-[22px] overflow-hidden border border-white/10 bg-card" data-delay="120">
+        <div class="img-zoom h-[240px] sm:h-[300px]">
+          <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=1000&q=80" alt="Dumbbell rack" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-[21px] tracking-[0.03em] text-sand">DUMBBELLS</h3>
+            <span class="text-[10px] tracking-[0.24em] text-gold font-semibold">ZONE 02</span>
+          </div>
+          <p class="mt-2 text-sand/60 text-[14px] leading-relaxed">A full range of dumbbells for focused, controlled training sessions.</p>
+        </div>
+        <div class="corner-line"></div>
+      </div>
+
+      <div class="reveal lift-card group rounded-[22px] overflow-hidden border border-white/10 bg-card" data-delay="240">
+        <div class="img-zoom h-[240px] sm:h-[300px]">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=80" alt="Treadmill cardio training" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between">
+            <h3 class="font-display text-[21px] tracking-[0.03em] text-sand">TREADMILLS</h3>
+            <span class="text-[10px] tracking-[0.24em] text-gold font-semibold">ZONE 03</span>
+          </div>
+          <p class="mt-2 text-sand/60 text-[14px] leading-relaxed">Cardio equipment as part of a balanced fitness routine.</p>
+        </div>
+        <div class="corner-line"></div>
+      </div>
+    </div>
+
+    <!-- Equipment chips -->
+    <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4">
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8v8M8 6v12M16 6v12M20 8v8M8 12h8"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Leg Press</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="60">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8v8M8 6v12M16 6v12M20 8v8M8 12h8"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Flat Benches</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="120">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8v8M8 6v12M16 6v12M20 8v8M8 12h8"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Weight Lifting</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="180">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8v8M8 6v12M16 6v12M20 8v8M8 12h8"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Weight Training</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="60">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Barbells</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="120">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Free Weights</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="180">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 20V9M18 20V9M6 9a6 6 0 0 1 12 0"/><path d="M4 20h4M16 20h4"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Thigh Abductors</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="240">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l2-5 3 10 2.5-6 1.5 3h5"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Stretching</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-white/10 bg-white/[0.035] px-5 py-5" data-delay="120">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8c3 0 3 8 6 8s3-8 6-8 3 8 6 8"/><path d="M3 16c3 0 3-8 6-8"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Battle Ropes</span>
+        </div>
+      </div>
+      <div class="reveal equip-item rounded-2xl border border-gold/32 bg-gold/[0.09] px-5 py-5" data-delay="180">
+        <div class="flex items-center gap-3">
+          <svg class="w-[19px] h-[19px] text-gold transition-colors duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg>
+          <span class="font-semibold text-[14.5px] text-sand transition-colors duration-500">Clean &amp; Maintained</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="relative py-20 sm:py-28 bg-ink overflow-hidden">
+  <div class="absolute inset-x-0 top-0 divider-soft"></div>
+  <div class="absolute left-1/2 -translate-x-1/2 top-10 w-[900px] h-[320px] rounded-full opacity-[0.09]" style="background:radial-gradient(closest-side,#FFB627,transparent);filter:blur(60px)"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-[760px] mx-auto">
+      <div class="reveal inline-flex items-center gap-3 mb-5">
+        <div class="w-10 h-[1px] bg-gradient-to-r from-transparent to-gold"></div>
+        <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Services</span>
+        <div class="w-10 h-[1px] bg-gradient-to-l from-transparent to-gold"></div>
+      </div>
+      <h2 class="reveal font-display text-[clamp(2.35rem,6.4vw,4.4rem)] leading-[0.94] text-sand" data-delay="80">
+        TRAINING THAT FITS<br><span class="text-gold">YOUR ROUTINE.</span>
+      </h2>
+      <p class="reveal mt-6 text-sand/62 text-[16px] sm:text-[18px] leading-[1.8] font-light" data-delay="160">
+        Clear, structured options — from strength and weight training to separate batches and plan-based support.
+      </p>
+    </div>
+
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+
+      <!-- 1 -->
+      <div class="reveal lift-card rounded-[22px] border border-white/10 bg-card p-8">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/28 bg-gold/[0.09] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 9v6M7 7v10M17 7v10M20 9v6M7 12h10"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">STRENGTH TRAINING</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">Focused workouts using weights and resistance equipment.</p>
+        <div class="corner-line"></div>
+      </div>
+
+      <!-- 2 -->
+      <div class="reveal lift-card rounded-[22px] border border-white/10 bg-card p-8" data-delay="90">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/28 bg-gold/[0.09] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 4v3M12 17v3"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">WEIGHT TRAINING</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">Training with dumbbells, barbells, free weights and dedicated equipment.</p>
+        <div class="corner-line"></div>
+      </div>
+
+      <!-- 3 -->
+      <div class="reveal lift-card rounded-[22px] border border-white/10 bg-card p-8" data-delay="180">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/28 bg-gold/[0.09] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20.5 8.5a5 5 0 0 0-8.5-2 5 5 0 0 0-8.5 3c0 4.5 8.5 10 8.5 10s8.5-5.5 8.5-10Z"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">FITNESS WORKOUTS</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">Structured fitness options for different members.</p>
+        <div class="corner-line"></div>
+      </div>
+
+      <!-- 4 -->
+      <div class="reveal lift-card rounded-[22px] border border-white/10 bg-card p-8" data-delay="60">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/28 bg-gold/[0.09] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">WORKOUT PLANS</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">Workout plans based on individual fitness requirements.</p>
+        <div class="corner-line"></div>
+      </div>
+
+      <!-- 5 -->
+      <div class="reveal lift-card rounded-[22px] border border-white/10 bg-card p-8" data-delay="150">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/28 bg-gold/[0.09] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21c4.5 0 8-3.6 8-8.2C20 8 12 3 12 3S4 8 4 12.8C4 17.4 7.5 21 12 21Z"/><path d="M12 21V9"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">DIET PLANS</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">Diet plans based on fitness requirements.</p>
+        <div class="corner-line"></div>
+      </div>
+
+      <!-- 6 -->
+      <div class="reveal lift-card rounded-[22px] border border-gold/28 bg-gradient-to-b from-[#1A1712] to-[#111315] p-8" data-delay="240">
+        <div class="icon-box w-[54px] h-[54px] rounded-2xl border border-gold/32 bg-gold/[0.12] text-gold flex items-center justify-center">
+          <svg class="w-[25px] h-[25px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/></svg>
+        </div>
+        <h3 class="mt-6 font-display text-[23px] tracking-[0.02em] text-sand">LADIES' BATCH</h3>
+        <p class="mt-3 text-sand/62 text-[15px] leading-[1.78] font-light">A separate batch for ladies for convenience and comfortable workouts.</p>
+        <div class="corner-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MEMBERSHIP ================= -->
+<section id="membership" class="relative py-20 sm:py-28 bg-[#0B0D0F] overflow-hidden">
+  <div class="absolute inset-0 opacity-[0.6]" style="background:radial-gradient(80% 90% at 50% 100%, rgba(255,122,43,.10) 0%, rgba(255,122,43,0) 62%);"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-[720px] mx-auto">
+      <div class="reveal inline-flex items-center gap-3 mb-5">
+        <div class="w-10 h-[1px] bg-gradient-to-r from-transparent to-gold"></div>
+        <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Membership Plans</span>
+        <div class="w-10 h-[1px] bg-gradient-to-l from-transparent to-gold"></div>
+      </div>
+      <h2 class="reveal font-display text-[clamp(2.35rem,6.4vw,4.4rem)] leading-[0.94] text-sand" data-delay="80">
+        CHOOSE A PLAN THAT<br>FITS YOUR <span class="text-gold">FITNESS ROUTINE.</span>
+      </h2>
+      <p class="reveal mt-6 text-sand/62 text-[16px] sm:text-[18px] leading-[1.8] font-light" data-delay="150">
+        Speak with the gym directly for current options, schedules and pricing.
+      </p>
+    </div>
+
+    <div class="mt-14 grid md:grid-cols-3 gap-6 lg:gap-7">
+
+      <!-- Card 1 -->
+      <div class="reveal price-card rounded-[24px] border border-white/10 bg-card p-9 flex flex-col">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase tracking-[0.28em] text-gold font-semibold">Plan 01</span>
+          <div class="w-11 h-11 rounded-xl border border-white/12 flex items-center justify-center text-gold">
+            <svg class="w-[21px] h-[21px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 10h18M7 15h4"/></svg>
+          </div>
+        </div>
+        <h3 class="mt-7 font-display text-[30px] leading-none tracking-[0.02em] text-sand">MEMBERSHIP</h3>
+        <div class="mt-4 h-[1px] bg-white/10"></div>
+        <p class="mt-5 text-sand/64 text-[15px] leading-[1.8] font-light flex-1">
+          Contact the gym for current membership options and pricing.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Mon–Sat: 6:00 AM – 10:30 PM
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Strength &amp; weight-training facilities
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Options for males and females
+          </li>
+        </ul>
+        <a href="tel:+919888844699" class="btn btn-ghost mt-8 w-full text-center py-4 rounded-full text-[12px] font-extrabold tracking-[0.16em] uppercase">Call Now</a>
+      </div>
+
+      <!-- Card 2 (featured) -->
+      <div class="reveal price-card price-featured rounded-[24px] border border-white/10 bg-card p-9 flex flex-col relative overflow-hidden md:-translate-y-3">
+        <div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-gold via-[#FF8A2B] to-gold"></div>
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase tracking-[0.28em] text-gold font-semibold">Plan 02</span>
+          <div class="w-11 h-11 rounded-xl border border-gold/32 bg-gold/12 flex items-center justify-center text-gold">
+            <svg class="w-[21px] h-[21px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 9v6M7 7v10M17 7v10M20 9v6M7 12h10"/></svg>
+          </div>
+        </div>
+        <h3 class="mt-7 font-display text-[30px] leading-none tracking-[0.02em] text-sand">TRAINING</h3>
+        <div class="mt-4 h-[1px] bg-white/10"></div>
+        <p class="mt-5 text-sand/68 text-[15px] leading-[1.8] font-light flex-1">
+          Ask the gym about available training options.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-center gap-2.5 text-sand/76 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Strength training
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/76 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Weight training
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/76 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Workout plans &amp; diet plans
+          </li>
+        </ul>
+        <a href="https://wa.me/919888844699?text=Hi%20Royal%20Gym%2C%20I%27m%20interested%20in%20your%20membership%20plans.%20Could%20you%20please%20share%20the%20details%3F" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-8 w-full text-center py-4 rounded-full text-[12px] font-extrabold tracking-[0.16em] uppercase">Enquire on WhatsApp</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="reveal price-card rounded-[24px] border border-white/10 bg-card p-9 flex flex-col" data-delay="120">
+        <div class="flex items-center justify-between">
+          <span class="text-[10px] uppercase tracking-[0.28em] text-gold font-semibold">Plan 03</span>
+          <div class="w-11 h-11 rounded-xl border border-white/12 flex items-center justify-center text-gold">
+            <svg class="w-[21px] h-[21px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/></svg>
+          </div>
+        </div>
+        <h3 class="mt-7 font-display text-[30px] leading-none tracking-[0.02em] text-sand">LADIES' BATCH</h3>
+        <div class="mt-4 h-[1px] bg-white/10"></div>
+        <p class="mt-5 text-sand/64 text-[15px] leading-[1.8] font-light flex-1">
+          Ask the gym about the current ladies' batch schedule and pricing.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Separate batch for ladies
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Comfortable workout environment
+          </li>
+          <li class="flex items-center gap-2.5 text-sand/72 text-[13.5px]">
+            <svg class="w-4 h-4 text-gold shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            Supportive trainers
+          </li>
+        </ul>
+        <a href="tel:+919888844699" class="btn btn-ghost mt-8 w-full text-center py-4 rounded-full text-[12px] font-extrabold tracking-[0.16em] uppercase">Call Now</a>
+      </div>
+    </div>
+
+    <p class="reveal mt-10 text-center text-sand/42 text-[12.5px] tracking-[0.06em]">
+      Membership pricing is available directly from the gym. Please call <a href="tel:+919888844699" class="text-gold hover:underline font-semibold">+91 98888 44699</a> for current details.
+    </p>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section id="reviews" class="relative py-20 sm:py-28 bg-ink overflow-hidden">
+  <div class="absolute left-0 top-1/3 w-[520px] h-[520px] rounded-full bg-[#FFB627] opacity-[0.05]" style="filter:blur(100px)"></div>
+
+  <div class="relative max-w-[1180px] mx-auto px-5 sm:px-8">
+    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
+      <div class="reveal max-w-[60ch]">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="rule"></div>
+          <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Reviews</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.35rem,6.2vw,4.25rem)] leading-[0.94] text-sand">
+          WHAT MEMBERS<br><span class="text-gold">SAY ABOUT US.</span>
+        </h2>
+      </div>
+
+      <div class="reveal flex items-center gap-3" data-delay="140">
+        <button id="tPrev" class="w-[52px] h-[52px] rounded-full border border-white/14 text-sand/80 flex items-center justify-center hover:border-gold hover:text-gold hover:-translate-y-1 transition-all duration-300" aria-label="Previous review">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button id="tNext" class="w-[52px] h-[52px] rounded-full border border-white/14 text-sand/80 flex items-center justify-center hover:border-gold hover:text-gold hover:-translate-y-1 transition-all duration-300" aria-label="Next review">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="reveal-scale relative rounded-[26px] border border-white/10 bg-gradient-to-b from-[#141719] to-[#0E1113] overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-gold to-transparent opacity-70"></div>
+      <div class="p-8 sm:p-12 lg:p-14">
+
+        <div class="overflow-hidden" id="tViewport">
+          <div class="t-track" id="tTrack">
+
+            <!-- Slide 1 -->
+            <div class="t-slide">
+              <div class="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-14">
+                <div class="lg:w-[38%] shrink-0">
+                  <div class="flex items-center gap-1 text-gold mb-4">
+                    <svg class="w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+                    <svg class="w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+                    <svg class="w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+                    <svg class="w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+                    <svg class="w-[19px] h-[19px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[58px] h-[58px] rounded-full bg-gradient-to-br from-gold to-ember flex items-center justify-center text-[#14100A] font-display text-[19px]">RS</div>
+                    <div>
+                      <div class="font-semibold text-sand text-[15.5px]">Randhir Singh</div>
+                      <div class="text-gold text-[11.5px] tracking-[0.18em] uppercase font-semibold mt-[3px]">5/5</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-[62%]">
+                  <svg class="w-9 h-9 text-gold/22 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9.7 6.2c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Zm8.6 0c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Z"/></svg>
+                  <p class="text-sand text-[19px] sm:text-[25px] lg:text-[29px] leading-[1.45] font-light">
+                    “Royal Gym By Tandon`s is a fantastic fitness destination that truly stands out!”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="t-slide">
+              <div class="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-14">
+                <div class="lg:w-[38%] shrink-0">
+                  <div class="flex items-center gap-1 text-sand/22 mb-4">
+                    <span class="text-[11px] tracking-[0.22em] uppercase font-semibold text-gold/80">Member Review</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[58px] h-[58px] rounded-full bg-gradient-to-br from-[#E9E4DA] to-[#B9B2A5] flex items-center justify-center text-[#14100A] font-display text-[19px]">RK</div>
+                    <div>
+                      <div class="font-semibold text-sand text-[15.5px]">RIYA KHARBANDA RIYA</div>
+                      <div class="text-sand/45 text-[11.5px] tracking-[0.18em] uppercase font-semibold mt-[3px]">Verified Review</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-[62%]">
+                  <svg class="w-9 h-9 text-gold/22 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9.7 6.2c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Zm8.6 0c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Z"/></svg>
+                  <p class="text-sand text-[19px] sm:text-[25px] lg:text-[29px] leading-[1.45] font-light">
+                    “Randhir sir is a great mentor. He is very cooperative and pays attention to everyone around him.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="t-slide">
+              <div class="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-14">
+                <div class="lg:w-[38%] shrink-0">
+                  <div class="flex items-center gap-1 text-sand/22 mb-4">
+                    <span class="text-[11px] tracking-[0.22em] uppercase font-semibold text-gold/80">Member Review</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <div class="w-[58px] h-[58px] rounded-full bg-gradient-to-br from-[#FFB627] to-[#D9762B] flex items-center justify-center text-[#14100A] font-display text-[19px]">SK</div>
+                    <div>
+                      <div class="font-semibold text-sand text-[15.5px]">Simmi Kaur</div>
+                      <div class="text-sand/45 text-[11.5px] tracking-[0.18em] uppercase font-semibold mt-[3px]">Verified Review</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-[62%]">
+                  <svg class="w-9 h-9 text-gold/22 mb-4" viewBox="0 0 24 24" fill="currentColor"><path d="M9.7 6.2c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Zm8.6 0c-3 1.4-5 4.2-5 7.5 0 2.4 1.5 4.3 3.8 4.3 2 0 3.5-1.5 3.5-3.4 0-1.9-1.3-3.3-3.1-3.3-.4 0-.9.1-1 .1.4-1.9 2-3.6 3.8-4.5l-2-.7Z"/></svg>
+                  <p class="text-sand text-[19px] sm:text-[25px] lg:text-[29px] leading-[1.45] font-light">
+                    “Best gym for ladies... Awesome results I got here under RANDHIR TANDON sir supervision.”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Dots -->
+        <div class="mt-10 flex items-center gap-2.5" id="tDots">
+          <button class="dot active" aria-label="Go to review 1"></button>
+          <button class="dot" aria-label="Go to review 2"></button>
+          <button class="dot" aria-label="Go to review 3"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rating summary -->
+    <div class="mt-8 grid sm:grid-cols-3 gap-5">
+      <div class="reveal rounded-2xl border border-white/10 bg-white/[0.03] p-6 flex items-center gap-4">
+        <div class="font-display text-[38px] leading-none text-gold">4.9</div>
+        <div>
+          <div class="flex items-center gap-1 text-gold">
+            <svg class="w-[13px] h-[13px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+            <svg class="w-[13px] h-[13px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+            <svg class="w-[13px] h-[13px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+            <svg class="w-[13px] h-[13px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+            <svg class="w-[13px] h-[13px]" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+          </div>
+          <div class="text-sand/58 text-[12px] tracking-[0.14em] uppercase mt-1.5">Rating</div>
+        </div>
+      </div>
+      <div class="reveal rounded-2xl border border-white/10 bg-white/[0.03] p-6 flex items-center gap-4" data-delay="110">
+        <div class="font-display text-[38px] leading-none text-sand">852</div>
+        <div>
+          <div class="text-sand/80 text-[13px] font-semibold">Total Reviews</div>
+          <div class="text-sand/58 text-[12px] tracking-[0.14em] uppercase mt-1.5">Publicly listed</div>
+        </div>
+      </div>
+      <div class="reveal rounded-2xl border border-white/10 bg-white/[0.03] p-6 flex items-center gap-4" data-delay="220">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-gold to-ember flex items-center justify-center text-[#14100A]">
+          <svg class="w-[21px] h-[21px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div>
+          <div class="text-sand/80 text-[13px] font-semibold">Royal Gym By Tandon's</div>
+          <div class="text-sand/58 text-[12px] tracking-[0.14em] uppercase mt-1.5">Ludhiana, Punjab</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / LOCATION ================= -->
+<section id="contact" class="relative py-20 sm:py-28 bg-[#0B0D0F] overflow-hidden">
+  <div class="absolute inset-0 opacity-70" style="background:radial-gradient(75% 80% at 20% 100%, rgba(255,122,43,.12) 0%, rgba(255,122,43,0) 60%);"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
+
+      <!-- Left: CTA content -->
+      <div class="flex flex-col justify-center">
+        <div class="reveal">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="rule"></div>
+            <span class="text-[11px] uppercase tracking-[0.32em] text-gold font-semibold">Location &amp; Contact</span>
+          </div>
+          <h2 class="font-display text-[clamp(2.6rem,7.2vw,5.1rem)] leading-[0.9] text-sand">
+            READY TO<br>GET <span class="text-gold">STARTED?</span>
+          </h2>
+          <p class="mt-6 text-sand/62 text-[16px] sm:text-[18px] leading-[1.8] font-light max-w-[46ch]">
+            Visit Royal Gym By Tandon's in Jodhewal, Ludhiana — or call us to know more about memberships, training options and the ladies' batch.
+          </p>
+        </div>
+
+        <!-- Contact rows -->
+        <div class="mt-10 space-y-4">
+          <div class="reveal flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-gold/36 transition-colors duration-500">
+            <div class="w-11 h-11 rounded-xl bg-gold/12 border border-gold/26 flex items-center justify-center text-gold shrink-0">
+              <svg class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="text-[10px] uppercase tracking-[0.24em] text-gold/85 font-semibold">Address</div>
+              <div class="text-sand/88 text-[14.5px] leading-[1.7] mt-1.5">
+                Royal Gym By Tandon's<br>
+                B-31/1536, New Subhash Nagar, near Green Land Convent School B,<br>
+                Jodhewal, Ludhiana, Punjab 141007, India
+              </div>
+            </div>
+          </div>
+
+          <a href="tel:+919888844699" class="reveal flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-gold/36 transition-colors duration-500 group">
+            <div class="w-11 h-11 rounded-xl bg-gold/12 border border-gold/26 flex items-center justify-center text-gold shrink-0">
+              <svg class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            </div>
+            <div>
+              <div class="text-[10px] uppercase tracking-[0.24em] text-gold/85 font-semibold">Phone</div>
+              <div class="text-sand text-[17px] font-semibold mt-1 group-hover:text-gold transition-colors duration-300">+91 98888 44699</div>
+            </div>
+          </a>
+
+          <div class="reveal flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-gold/36 transition-colors duration-500">
+            <div class="w-11 h-11 rounded-xl bg-gold/12 border border-gold/26 flex items-center justify-center text-gold shrink-0">
+              <svg class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+            </div>
+            <div>
+              <div class="text-[10px] uppercase tracking-[0.24em] text-gold/85 font-semibold">Opening Hours</div>
+              <div class="text-sand/88 text-[14.5px] leading-[1.7] mt-1.5">
+                Monday – Saturday: <span class="text-sand font-semibold">6:00 AM – 10:30 PM</span><br>
+                Sunday: <span class="text-sand font-semibold">Closed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTAs -->
+        <div class="reveal mt-8 flex flex-wrap gap-3.5">
+          <a href="tel:+919888844699" class="btn btn-primary magnetic px-8 py-[18px] rounded-full text-[12.5px] font-extrabold tracking-[0.16em] uppercase inline-flex items-center gap-2.5">
+            <svg class="w-[17px] h-[17px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            Call Now
+          </a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007%2C%20India" target="_blank" rel="noopener noreferrer" class="btn btn-ghost magnetic px-8 py-[18px] rounded-full text-[12.5px] font-extrabold tracking-[0.16em] uppercase inline-flex items-center gap-2.5">
+            <svg class="w-[17px] h-[17px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Get Directions
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Map -->
+      <div class="reveal-scale map-wrap relative rounded-[26px] overflow-hidden border border-white/10 min-h-[420px] lg:min-h-full">
+        <iframe
+          class="map-frame w-full h-full absolute inset-0"
+          style="border:0;min-height:420px"
+          src="https://maps.google.com/maps?q=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Royal Gym By Tandon's location map">
+        </iframe>
+
+        <div class="absolute left-5 bottom-5 right-5 rounded-2xl border border-white/12 bg-[#0B0D0F]/92 backdrop-blur-md p-5">
+          <div class="flex items-start gap-3.5">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-gold to-ember flex items-center justify-center text-[#14100A] shrink-0">
+              <svg class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="font-display text-[17px] tracking-[0.04em] text-sand leading-tight">ROYAL GYM BY TANDON'S</div>
+              <div class="text-sand/60 text-[12.5px] leading-[1.6] mt-1">
+                New Subhash Nagar, Jodhewal, Ludhiana, Punjab 141007
+              </div>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007%2C%20India" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-gold text-[11.5px] font-bold tracking-[0.16em] uppercase mt-2.5 hover:gap-2.5 transition-all duration-300">
+                Open in Maps
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WhatsApp enquiry CTA -->
+<a href="https://wa.me/919888844699?text=Hi%20Royal%20Gym%2C%20I%27m%20interested%20in%20your%20membership%20plans.%20Could%20you%20please%20share%20the%20details%3F"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Enquire with Royal Gym on WhatsApp"
+   class="fixed right-5 bottom-24 lg:bottom-6 z-[70] inline-flex items-center gap-2.5 rounded-full border border-white/10 bg-[#25D366] px-5 py-3.5 text-[11px] font-extrabold uppercase tracking-[0.12em] text-white shadow-2xl hover:scale-[1.03] transition-transform duration-200">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.85 11.85 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.96L.08 24l6.28-1.65a11.9 11.9 0 0 0 5.72 1.46h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.17-3.46-8.43ZM12.09 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.73.98.99-3.64-.23-.37a9.86 9.86 0 0 1-1.52-5.28C2.19 6.45 6.63 2.01 12.09 2.01a9.84 9.84 0 0 1 7 2.9 9.87 9.87 0 0 1 2.89 7.01c0 5.46-4.44 9.88-9.89 9.88Zm5.42-7.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.74-1.64-2.03-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-ink border-t border-white/10 pt-16 pb-28 lg:pb-14 overflow-hidden">
+  <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[900px] h-[300px] rounded-full opacity-[0.08]" style="background:radial-gradient(closest-side,#FFB627,transparent);filter:blur(70px)"></div>
+
+  <div class="relative max-w-[1280px] mx-auto px-5 sm:px-8">
+    <div class="grid md:grid-cols-12 gap-10 lg:gap-8">
+
+      <div class="md:col-span-5">
+        <a href="#home" class="flex items-center gap-3 group w-fit">
+          <div class="w-12 h-12 rounded-xl border border-white/12 bg-gradient-to-br from-[#FFB627] to-[#FF6B2C] flex items-center justify-center">
+            <span class="font-display text-[#14100A] text-[21px] leading-none tracking-wider">RG</span>
+          </div>
+          <div class="leading-none">
+            <div class="font-display text-[21px] tracking-[0.06em] text-sand">ROYAL GYM</div>
+            <div class="text-[10.5px] tracking-[0.32em] text-gold/90 font-semibold mt-[3px]">BY TANDON'S</div>
+          </div>
+        </a>
+
+        <p class="mt-6 text-sand/58 text-[14.5px] leading-[1.85] font-light max-w-[42ch]">
+          A trusted fitness destination in Ludhiana for strength training, fitness and focused workouts.
+        </p>
+
+        <div class="mt-6 flex items-center gap-3">
+          <div class="flex items-center gap-1.5 rounded-full border border-gold/26 bg-gold/[0.08] px-4 py-2">
+            <svg class="w-[14px] h-[14px] text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg>
+            <span class="text-[12px] font-semibold text-sand"><span class="text-gold">4.9/5</span> · 852 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="md:col-span-2">
+        <h4 class="text-[10.5px] uppercase tracking-[0.28em] text-gold font-semibold">Navigation</h4>
+        <ul class="mt-5 space-y-3">
+          <li><a href="#home" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Home</a></li>
+          <li><a href="#about" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">About</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Services</a></li>
+          <li><a href="#equipment" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Equipment</a></li>
+          <li><a href="#membership" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Membership</a></li>
+          <li><a href="#reviews" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Reviews</a></li>
+          <li><a href="#contact" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2">
+        <h4 class="text-[10.5px] uppercase tracking-[0.28em] text-gold font-semibold">Services</h4>
+        <ul class="mt-5 space-y-3">
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Strength Training</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Weight Training</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Fitness Workouts</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Workout Plans</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Diet Plans</a></li>
+          <li><a href="#services" class="text-sand/62 text-[14px] hover:text-gold hover:translate-x-1 inline-block transition-all duration-300">Ladies' Batch</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-3">
+        <h4 class="text-[10.5px] uppercase tracking-[0.28em] text-gold font-semibold">Get In Touch</h4>
+        <div class="mt-5 space-y-4">
+          <a href="tel:+919888844699" class="flex items-start gap-3 text-sand/66 text-[13.5px] leading-[1.7] hover:text-gold transition-colors duration-300">
+            <svg class="w-[17px] h-[17px] text-gold mt-[2px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <span class="font-semibold text-sand/90 text-[15px]">+91 98888 44699</span>
+          </a>
+          <div class="flex items-start gap-3 text-sand/66 text-[13.5px] leading-[1.7]">
+            <svg class="w-[17px] h-[17px] text-gold mt-[2px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>B-31/1536, New Subhash Nagar, near Green Land Convent School B, Jodhewal, Ludhiana, Punjab 141007, India</span>
+          </div>
+          <div class="flex items-start gap-3 text-sand/66 text-[13.5px] leading-[1.7]">
+            <svg class="w-[17px] h-[17px] text-gold mt-[2px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg>
+            <span>Mon–Sat: 6:00 AM – 10:30 PM<br>Sunday: Closed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-14 pt-7 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-5">
+      <p class="text-sand/42 text-[12px] tracking-[0.06em] text-center sm:text-left">
+        © <span id="year">2025</span> Royal Gym By Tandon's. All rights reserved.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+        <a href="#home" class="text-sand/42 text-[12px] hover:text-gold transition-colors duration-300">Home</a>
+        <a href="#services" class="text-sand/42 text-[12px] hover:text-gold transition-colors duration-300">Services</a>
+        <a href="#membership" class="text-sand/42 text-[12px] hover:text-gold transition-colors duration-300">Membership</a>
+        <a href="#contact" class="text-sand/42 text-[12px] hover:text-gold transition-colors duration-300">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= STICKY MOBILE CTA ================= -->
+<div id="stickyCta" class="lg:hidden fixed bottom-0 left-0 w-full z-40 bg-[#0B0D0F]/95 backdrop-blur-xl border-t border-white/12 px-4 py-3">
+  <div class="flex items-center gap-3">
+    <a href="tel:+919888844699" class="btn btn-primary flex-1 text-center py-3.5 rounded-full text-[11.5px] font-extrabold tracking-[0.14em] uppercase">Call Now</a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=B-31%2F1536%2C%20New%20Subhash%20Nagar%2C%20near%20Green%20Land%20Convent%20School%20B%2C%20Jodhewal%2C%20Ludhiana%2C%20Punjab%20141007%2C%20India" target="_blank" rel="noopener noreferrer" class="btn btn-ghost flex-1 text-center py-3.5 rounded-full text-[11.5px] font-extrabold tracking-[0.14em] uppercase">Directions</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- Year ---------- */
+  var yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Scroll progress + header state + sticky CTA ---------- */
+  var header = document.getElementById('header');
+  var progressBar = document.getElementById('progressBar');
+  var stickyCta = document.getElementById('stickyCta');
+  var heroBg = document.getElementById('heroBg');
+  var ticking = false;
+
+  function onScroll() {
+    var y = window.pageYOffset || document.documentElement.scrollTop;
+
+    // progress
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = docHeight > 0 ? (y / docHeight) * 100 : 0;
+    if (progressBar) progressBar.style.width = pct + '%';
+
+    // header
+    if (header) {
+      if (y > 40) header.classList.add('header-scrolled');
+      else header.classList.remove('header-scrolled');
+    }
+
+    // sticky CTA
+    if (stickyCta) {
+      if (y > 420) stickyCta.classList.add('show');
+      else stickyCta.classList.remove('show');
+    }
+
+    // hero parallax
+    if (heroBg && !reduceMotion && y < window.innerHeight * 1.25) {
+      heroBg.style.transform = 'translate3d(0,' + (y * 0.22) + 'px,0)';
+    }
+
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(onScroll);
+    }
+  }, { passive: true });
+  onScroll();
+
+  /* ---------- Mobile menu ---------- */
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  var menuOpen = false;
+  var bars = menuBtn ? menuBtn.querySelectorAll('[data-bar]') : [];
+
+  function setMenu(open) {
+    menuOpen = open;
+    if (!mobileMenu || !menuBtn) return;
+    if (open) {
+      mobileMenu.classList.add('open');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      menuBtn.setAttribute('aria-label', 'Close menu');
+      if (bars[0]) bars[0].style.transform = 'translateY(7px) rotate(45deg)';
+      if (bars[1]) bars[1].style.opacity = '0';
+      if (bars[2]) bars[2].style.transform = 'translateY(-7px) rotate(-45deg)';
+    } else {
+      mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+      menuBtn.setAttribute('aria-label', 'Open menu');
+      if (bars[0]) bars[0].style.transform = '';
+      if (bars[1]) bars[1].style.opacity = '';
+      if (bars[2]) bars[2].style.transform = '';
+    }
+  }
+
+  if (menuBtn) {
+    menuBtn.addEventListener('click', function () { setMenu(!menuOpen); });
+  }
+
+  if (mobileMenu) {
+    mobileMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenu(false); });
+    });
+  }
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 1024 && menuOpen) setMenu(false);
+  });
+
+  /* ---------- Reveal on scroll ---------- */
+  var revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-scale');
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          var delay = parseInt(el.getAttribute('data-delay') || '0', 10);
+          if (delay && !reduceMotion) {
+            setTimeout(function () { el.classList.add('in'); }, delay);
+          } else {
+            el.classList.add('in');
+          }
+          io.unobserve(el);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  /* ---------- Counters ---------- */
+  var counters = document.querySelectorAll('.counter');
+
+  function animateCounter(el) {
+    var target = parseFloat(el.getAttribute('data-target'));
+    var decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
+    if (isNaN(target)) return;
+
+    if (reduceMotion) {
+      el.textContent = target.toFixed(decimals);
+      return;
+    }
+
+    var duration = 1900;
+    var startTime = null;
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var value = target * eased;
+      el.textContent = value.toFixed(decimals);
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      } else {
+        el.textContent = target.toFixed(decimals);
+      }
+    }
+    window.requestAnimationFrame(step);
+  }
+
+  if ('IntersectionObserver' in window) {
+    var counterObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function (c) { counterObserver.observe(c); });
+  } else {
+    counters.forEach(animateCounter);
+  }
+
+  /* ---------- Magnetic buttons ---------- */
+  if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
+    document.querySelectorAll('.magnetic').forEach(function (btn) {
+      btn.addEventListener('mousemove', function (e) {
+        var rect = btn.getBoundingClientRect();
+        var x = e.clientX - rect.left - rect.width / 2;
+        var y = e.clientY - rect.top - rect.height / 2;
+        btn.style.transform = 'translate(' + (x * 0.16) + 'px,' + (y * 0.22) + 'px)';
+      });
+      btn.addEventListener('mouseleave', function () {
+        btn.style.transform = '';
+      });
+    });
+  }
+
+  /* ---------- Testimonial carousel ---------- */
+  var track = document.getElementById('tTrack');
+  var dotsWrap = document.getElementById('tDots');
+  var prevBtn = document.getElementById('tPrev');
+  var nextBtn = document.getElementById('tNext');
+  var viewport = document.getElementById('tViewport');
+
+  if (track && dotsWrap) {
+    var slides = track.querySelectorAll('.t-slide');
+    var dots = dotsWrap.querySelectorAll('.dot');
+    var current = 0;
+    var total = slides.length;
+    var autoTimer = null;
+
+    function goTo(index) {
+      current = (index + total) % total;
+      track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      dots.forEach(function (d, i) {
+        if (i === current) d.classList.add('active');
+        else d.classList.remove('active');
+      });
+    }
+
+    function startAuto() {
+      if (reduceMotion) return;
+      stopAuto();
+      autoTimer = setInterval(function () { goTo(current + 1); }, 7000);
+    }
+    function stopAuto() {
+      if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+    }
+
+    if (prevBtn) prevBtn.addEventListener('click', function () { goTo(current - 1); startAuto(); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { goTo(current + 1); startAuto(); });
+
+    dots.forEach(function (d, i) {
+      d.addEventListener('click', function () { goTo(i); startAuto(); });
+    });
+
+    if (viewport) {
+      viewport.addEventListener('mouseenter', stopAuto);
+      viewport.addEventListener('mouseleave', startAuto);
+
+      // touch swipe
+      var startX = 0, startY = 0, isDragging = false;
+      viewport.addEventListener('touchstart', function (e) {
+        if (!e.touches || !e.touches.length) return;
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        isDragging = true;
+        stopAuto();
+      }, { passive: true });
+
+      viewport.addEventListener('touchend', function (e) {
+        if (!isDragging) return;
+        isDragging = false;
+        var endX = e.changedTouches[0].clientX;
+        var endY = e.changedTouches[0].clientY;
+        var diffX = endX - startX;
+        var diffY = endY - startY;
+        if (Math.abs(diffX) > 48 && Math.abs(diffX) > Math.abs(diffY)) {
+          if (diffX < 0) goTo(current + 1);
+          else goTo(current - 1);
+        }
+        startAuto();
+      }, { passive: true });
+    }
+
+    goTo(0);
+    startAuto();
+  }
+
+  /* ---------- Active nav link on scroll ---------- */
+  var sections = ['home', 'about', 'services', 'equipment', 'membership', 'reviews', 'contact'];
+  var navLinks = document.querySelectorAll('.nav-link');
+
+  if ('IntersectionObserver' in window && navLinks.length) {
+    var sectionObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var id = entry.target.id;
+          navLinks.forEach(function (link) {
+            var href = link.getAttribute('href') || '';
+            if (href === '#' + id) link.classList.add('active');
+            else link.classList.remove('active');
+          });
+        }
+      });
+    }, { threshold: 0.18, rootMargin: '-25% 0px -55% 0px' });
+
+    sections.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) sectionObserver.observe(el);
+    });
+  }
+
+  /* ---------- Smooth anchor scroll fallback ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var href = anchor.getAttribute('href');
+      if (!href || href === '#' || href.length < 2) return;
+      var targetEl = document.querySelector(href);
+      if (!targetEl) return;
+      e.preventDefault();
+      var headerOffset = 82;
+      var elementPosition = targetEl.getBoundingClientRect().top;
+      var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: reduceMotion ? 'auto' : 'smooth'
+      });
+    });
+  });
+
+})();
+</script>
+
+</body>
+</html>
